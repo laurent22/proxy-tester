@@ -73,7 +73,7 @@ func main() {
 
 	runtime.GOMAXPROCS(runtime.NumCPU())
 
-	content, err := ioutil.ReadFile("prox.txt")
+	content, err := ioutil.ReadFile("proxy.txt")
 	if err != nil {
 	    panic(err.Error())
 	}

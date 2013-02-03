@@ -1,0 +1,20 @@
+82.223.208.75:80         anonymous         Feb-02, 05:40       Spain
+94.23.52.82:3128         anonymous         Feb-02, 08:52       France
+94.158.215.217:8080      anonymous         Feb-02, 10:07       Russian Federation
+208.163.36.221:8080      anonymous         Feb-02, 12:53       Jamaica
+87.236.233.92:8080       anonymous         Feb-02, 12:16       Jordan
+14.31.11.78:9009         anonymous         Feb-02, 11:13       China
+119.160.154.7:8118       anonymous         Feb-02, 07:24       Brunei Darussalam
+201.187.107.23:80        anonymous         Feb-02, 09:29       Chile
+118.145.16.146:3129      anonymous         Feb-02, 10:05       China
+176.34.217.158:3128      anonymous         Feb-02, 10:49       Ireland
+180.183.20.140:3128      anonymous         Feb-02, 11:29       Thailand
+190.38.124.7:8080        anonymous         Feb-02, 13:53       Venezuela
+27.54.218.248:80         anonymous         Feb-02, 11:27       China
+212.49.70.48:10001       high-anonymous    Feb-02, 06:44       Kenya
+82.207.43.156:3128       high-anonymous    Feb-02, 07:50       Ukraine
+46.166.195.39:8080       high-anonymous    Feb-02, 07:12       Russian Federation
+61.136.59.30:80          high-anonymous    Feb-02, 11:51       China
+124.240.187.81:83        high-anonymous    Feb-02, 13:46       China
+61.145.121.124:888       high-anonymous    Feb-02, 11:59       China
+119.167.231.183:80       high-anonymous    Feb-02, 10:21       China
