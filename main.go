@@ -34,8 +34,8 @@ func checkProxy(proxy string, downloadedUrl string) (success bool, errorMessage 
 	fmt.Println("Checking:", proxy, downloadedUrl)
 	
 	proxyUrl, err := url.Parse("http://" + proxy)
-    httpClient := &http.Client { Transport: &http.Transport { Proxy: http.ProxyURL(proxyUrl) } }
-    response, err := httpClient.Get(downloadedUrl)
+	httpClient := &http.Client { Transport: &http.Transport { Proxy: http.ProxyURL(proxyUrl) } }
+	response, err := httpClient.Get(downloadedUrl)
 	if err != nil { return false, err.Error() }
 
 	body, err := ioutil.ReadAll(response.Body)
@@ -78,7 +78,7 @@ func main() {
 
 	content, err := ioutil.ReadFile("proxy.short.txt")
 	if err != nil {
-	    panic(err.Error())
+		panic(err.Error())
 	}
 	lines := strings.Split(string(content), "\n")
 
@@ -96,7 +96,7 @@ func main() {
 	
 	content, err = ioutil.ReadFile("trackers.short.txt")
 	if err != nil {
-	    panic(err.Error())
+		panic(err.Error())
 	}
 	lines = strings.Split(string(content), "\n")
 	
