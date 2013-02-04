@@ -10,15 +10,16 @@ import (
 	"sync"
 )
 
-var proxyFetchSemaphore = make(chan int, 1)
-var proxyCheckWaitGroup sync.WaitGroup
-
 type ProxyStatus struct {
 	ok bool
 	proxy string
 	errorMessage string
 	downloadedUrl string
 }
+
+var proxyFetchSemaphore = make(chan int, 1)
+var proxyCheckWaitGroup sync.WaitGroup
+var proxyStatuses[] ProxyStatus
 
 func (status ProxyStatus) String() string {
 	var output string
@@ -64,6 +65,7 @@ func asyncCheckProxy(proxyInfoChan chan ProxyStatus, proxy string, downloadedUrl
 func checkResults(proxyInfoChan chan ProxyStatus) {
 	for {
 		status := <- proxyInfoChan
+		proxyStatuses = append(proxyStatuses, status)
 		fmt.Println(status)
 		proxyCheckWaitGroup.Done()
 	}
@@ -123,4 +125,9 @@ func main() {
 	go checkResults(proxyInfoChan)
 
 	proxyCheckWaitGroup.Wait()
+	
+	fmt.Println("======================================");
+	for i := 0; i < len(proxyStatuses); i++ {
+		fmt.Println(proxyStatuses[i])	
+	}
 }
