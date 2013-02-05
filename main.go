@@ -117,6 +117,7 @@ func main() {
 		if len(tokens) <= 0 { continue }
 		var tracker = strings.Trim(tokens[0], " \t\n\r")
 		if len(tracker) < 7 { continue }
+		if strings.Index(tracker, "udp://") >= 0 { continue; } // UDP not supported by HTTP client
 
 		trackers = append(trackers, tracker)
 	}
