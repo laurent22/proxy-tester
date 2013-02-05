@@ -17,7 +17,6 @@ type ProxyStatus struct {
 	downloadedUrl string
 }
 
-var proxyFetchSemaphore = make(chan int, 1)
 var proxyCheckWaitGroup sync.WaitGroup
 var proxyStatuses[] ProxyStatus
 
