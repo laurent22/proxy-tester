@@ -8,6 +8,7 @@ import (
 	"net/url"
 	"runtime"
 	"sync"
+	"sort"
 )
 
 type ProxyStatus struct {
@@ -17,8 +18,16 @@ type ProxyStatus struct {
 	downloadedUrl string
 }
 
+type ProxyStatuses []*ProxyStatus
+func (s ProxyStatuses) Len() int      { return len(s) }
+func (s ProxyStatuses) Swap(i, j int) { s[i], s[j] = s[j], s[i] }
+
+type ByAddress struct{ ProxyStatuses }
+func (s ByAddress) Less(i, j int) bool { return s.ProxyStatuses[i].proxy < s.ProxyStatuses[j].proxy }
+
 var proxyCheckWaitGroup sync.WaitGroup
-var proxyStatuses[] ProxyStatus
+var proxyStatuses ProxyStatuses
+var getsInProgress = make(chan int, 2) // Max. number of simultaneous requests
 
 func (status ProxyStatus) String() string {
 	var output string
@@ -29,9 +38,10 @@ func (status ProxyStatus) String() string {
 	return output
 }
 
-func checkProxy(proxy string, downloadedUrl string) (success bool, errorMessage string) {
+func checkProxy(proxy string, downloadedUrl string) (success bool, errorMessage string) {	
+	getsInProgress <- 1
+	defer func() { <- getsInProgress }()
 	fmt.Println("Checking:", proxy, downloadedUrl)
-	
 	proxyUrl, err := url.Parse("http://" + proxy)
 	httpClient := &http.Client { Transport: &http.Transport { Proxy: http.ProxyURL(proxyUrl) } }
 	response, err := httpClient.Get(downloadedUrl)
@@ -64,7 +74,7 @@ func asyncCheckProxy(proxyInfoChan chan ProxyStatus, proxy string, downloadedUrl
 func checkResults(proxyInfoChan chan ProxyStatus) {
 	for {
 		status := <- proxyInfoChan
-		proxyStatuses = append(proxyStatuses, status)
+		proxyStatuses = append(proxyStatuses, &status)
 		fmt.Println(status)
 		proxyCheckWaitGroup.Done()
 	}
@@ -73,7 +83,7 @@ func checkResults(proxyInfoChan chan ProxyStatus) {
 func main() {
 	runtime.GOMAXPROCS(runtime.NumCPU())
 
-	content, err := ioutil.ReadFile("proxy.short.txt")
+	content, err := ioutil.ReadFile("proxy.txt")
 	if err != nil {
 		panic(err.Error())
 	}
@@ -83,6 +93,7 @@ func main() {
 
 	for i := 0; i < len(lines); i++ {
 		var line = strings.Trim(lines[i], " \t\n\r")
+		if len(line) == 0 { continue }
 		if line[0] == '#' { continue }
 		var tokens = strings.Split(line, " ")
 		if len(tokens) <= 0 { continue }
@@ -92,7 +103,7 @@ func main() {
 		proxies = append(proxies, proxy)
 	}
 	
-	content, err = ioutil.ReadFile("trackers.short.txt")
+	content, err = ioutil.ReadFile("trackers.all.txt")
 	if err != nil {
 		panic(err.Error())
 	}
@@ -124,8 +135,13 @@ func main() {
 
 	proxyCheckWaitGroup.Wait()
 	
-	fmt.Println("======================================");
+	sort.Sort(ByAddress{proxyStatuses})
+	
+	fmt.Println("==================================================")
+	
 	for i := 0; i < len(proxyStatuses); i++ {
-		fmt.Println(proxyStatuses[i])	
+		status := proxyStatuses[i]
+		if !status.ok { continue }
+		fmt.Println(status)
 	}
 }
