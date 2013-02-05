@@ -72,8 +72,6 @@ func checkResults(proxyInfoChan chan ProxyStatus) {
 }
 
 func main() {
-	var _ = fmt.Print
-
 	runtime.GOMAXPROCS(runtime.NumCPU())
 
 	content, err := ioutil.ReadFile("proxy.short.txt")
@@ -85,7 +83,8 @@ func main() {
 	var proxies[] string
 
 	for i := 0; i < len(lines); i++ {
-		var line = lines[i]
+		var line = strings.Trim(lines[i], " \t\n\r")
+		if line[0] == '#' { continue }
 		var tokens = strings.Split(line, " ")
 		if len(tokens) <= 0 { continue }
 		var proxy = strings.Trim(tokens[0], " \t\n\r")

@@ -1,20 +1,314 @@
-82.223.208.75:80         anonymous         Feb-02, 05:40       Spain
-94.23.52.82:3128         anonymous         Feb-02, 08:52       France
-94.158.215.217:8080      anonymous         Feb-02, 10:07       Russian Federation
-208.163.36.221:8080      anonymous         Feb-02, 12:53       Jamaica
-87.236.233.92:8080       anonymous         Feb-02, 12:16       Jordan
-14.31.11.78:9009         anonymous         Feb-02, 11:13       China
-119.160.154.7:8118       anonymous         Feb-02, 07:24       Brunei Darussalam
-201.187.107.23:80        anonymous         Feb-02, 09:29       Chile
-118.145.16.146:3129      anonymous         Feb-02, 10:05       China
-176.34.217.158:3128      anonymous         Feb-02, 10:49       Ireland
-180.183.20.140:3128      anonymous         Feb-02, 11:29       Thailand
-190.38.124.7:8080        anonymous         Feb-02, 13:53       Venezuela
-27.54.218.248:80         anonymous         Feb-02, 11:27       China
-212.49.70.48:10001       high-anonymous    Feb-02, 06:44       Kenya
-82.207.43.156:3128       high-anonymous    Feb-02, 07:50       Ukraine
-46.166.195.39:8080       high-anonymous    Feb-02, 07:12       Russian Federation
-61.136.59.30:80          high-anonymous    Feb-02, 11:51       China
-124.240.187.81:83        high-anonymous    Feb-02, 13:46       China
-61.145.121.124:888       high-anonymous    Feb-02, 11:59       China
-119.167.231.183:80       high-anonymous    Feb-02, 10:21       China
+222.187.222.118:8080     anonymous         Feb-04, 12:38       China
+203.226.116.115:80       anonymous         Feb-04, 21:03       Korea, Republic of
+77.237.73.3:80           anonymous         Feb-05, 00:38       Iran, Islamic Republic of
+41.106.3.82:80           anonymous         Feb-04, 18:03       Algeria
+81.17.16.71:3128         anonymous         Feb-05, 00:36       Switzerland
+114.34.39.26:8080        anonymous         Feb-04, 22:43       Taiwan
+210.177.139.89:8080      anonymous         Feb-05, 02:01       Hong Kong
+189.52.159.229:8080      anonymous         Feb-04, 02:33       Brazil
+121.52.71.23:80          anonymous         Feb-05, 00:52       Indonesia
+119.73.64.168:8118       anonymous         Feb-04, 21:52       Pakistan
+183.89.46.79:8080        anonymous         Feb-04, 06:13       Thailand
+192.210.50.36:8080       anonymous         Feb-04, 21:02       United States
+180.183.170.245:3128     anonymous         Feb-05, 00:47       Thailand
+205.213.195.80:8080      anonymous         Feb-05, 01:42       United States
+177.34.124.19:8080       anonymous         Feb-04, 20:20       Brazil
+183.89.82.108:3128       anonymous         Feb-04, 06:14       Thailand
+38.101.18.148:8080       anonymous         Feb-05, 00:57       United States
+119.73.47.229:8118       anonymous         Feb-04, 08:25       Pakistan
+203.81.68.203:80         anonymous         Feb-05, 01:10       Myanmar
+177.70.17.154:8080       anonymous         Feb-04, 06:15       Brazil</pre>
+# Getting http://www.samair.ru/proxy/proxy-02.htm
+183.89.44.86:3128        anonymous         Feb-04, 15:53       Thailand
+195.83.254.145:80        anonymous         Feb-05, 00:29       France
+195.199.204.121:3128     anonymous         Feb-05, 00:27       Hungary
+222.217.99.93:9000       high-anonymous    Feb-04, 12:38       China
+106.3.98.82:81           high-anonymous    Feb-05, 00:27       China
+61.28.56.162:8090        high-anonymous    Feb-04, 21:51       China
+101.99.3.164:3128        high-anonymous    Feb-05, 01:43       Vietnam
+77.236.209.236:8080      high-anonymous    Feb-04, 22:41       Czech Republic
+58.68.142.211:8080       high-anonymous    Feb-04, 22:15       China
+46.235.94.178:8080       high-anonymous    Feb-05, 01:16       Saudi Arabia
+212.8.33.154:6588        high-anonymous    Feb-04, 07:57       Ukraine
+212.6.184.250:80         high-anonymous    Feb-04, 22:14       Germany
+183.171.240.2:8080       high-anonymous    Feb-04, 23:58       Malaysia
+46.117.56.56:54321       high-anonymous    Feb-04, 17:37       Israel
+190.110.87.70:8080       high-anonymous    Feb-04, 21:41       Colombia
+95.140.196.34:3128       high-anonymous    Feb-04, 22:42       Armenia
+84.113.239.53:80         high-anonymous    Feb-05, 00:01       Austria
+184.169.203.214:80       high-anonymous    Feb-04, 22:35       United States
+190.213.15.141:6588      high-anonymous    Feb-04, 20:06       Trinidad and Tobago
+94.242.237.166:3128      high-anonymous    Feb-05, 00:03       Luxembourg</pre>
+# Getting http://www.samair.ru/proxy/proxy-03.htm
+24.23.200.51:8118        high-anonymous    Feb-04, 12:56       United States
+134.181.9.145:9000       high-anonymous    Feb-05, 01:32       United States
+46.105.182.99:3128       high-anonymous    Feb-04, 21:10       France
+54.235.177.41:80         high-anonymous    Feb-05, 01:25       United States
+94.209.217.8:80          high-anonymous    Feb-04, 22:48       Netherlands
+222.169.90.139:6668      high-anonymous    Feb-04, 13:17       China
+222.222.194.98:8090      high-anonymous    Feb-04, 21:45       China
+178.85.135.105:80        high-anonymous    Feb-04, 23:29       Netherlands
+220.168.83.231:10280     high-anonymous    Feb-04, 18:22       China
+128.208.4.198:2124       Planetlab/CoDeeN  Jan-29, 08:06       United States
+213.19.160.194:2128      Planetlab/CoDeeN  Jan-29, 14:10       United Kingdom
+218.76.157.98:8001       transparent       Feb-04, 21:14       China
+122.102.45.86:3128       transparent       Feb-05, 01:40       Indonesia
+200.182.190.149:8080     transparent       Feb-05, 01:41       Brazil
+85.25.109.152:3128       transparent       Feb-05, 01:44       Germany
+83.69.16.167:8080        transparent       Feb-05, 00:46       Russian Federation
+200.146.84.52:3128       transparent       Feb-05, 02:01       Brazil
+118.97.178.74:8080       transparent       Feb-04, 06:10       Indonesia
+14.136.195.2:3228        transparent       Feb-05, 01:36       Hong Kong
+222.240.210.85:3128      transparent       Feb-04, 06:48       China</pre>
+# Getting http://www.samair.ru/proxy/proxy-04.htm
+189.84.226.55:8080       transparent       Feb-05, 00:45       Brazil
+88.250.173.22:8090       transparent       Feb-05, 01:58       Turkey
+180.128.1.2:8080         transparent       Feb-05, 00:09       Thailand
+91.184.204.155:8080      transparent       Feb-04, 05:59       Cyprus
+61.133.125.186:50634     transparent       Feb-04, 23:58       China
+180.87.197.91:8080       transparent       Feb-04, 08:30       India
+103.11.99.216:8080       transparent       Feb-04, 19:26       Indonesia
+200.27.114.229:8080      transparent       Feb-05, 01:30       Chile
+177.137.239.213:8080     transparent       Feb-04, 22:52       Brazil
+189.125.35.194:3129      transparent       Feb-05, 00:38       Brazil
+60.190.129.52:3128       transparent       Feb-05, 00:33       China
+86.59.148.177:8080       transparent       Feb-04, 22:28       Hungary
+178.209.127.5:8080       transparent       Feb-04, 19:44       Russian Federation
+201.11.37.13:8080        transparent       Feb-05, 00:27       Brazil
+123.231.237.118:3128     transparent       Feb-04, 15:51       Indonesia
+59.151.37.8:8028         transparent       Feb-04, 20:40       China
+123.54.6.224:8080        transparent       Feb-05, 00:37       China
+77.123.76.178:8080       transparent       Feb-04, 19:08       Ukraine
+190.242.42.251:3129      transparent       Feb-04, 21:53       Colombia
+2.133.92.158:8082        transparent       Feb-05, 01:56       Kazakstan</pre>
+# Getting http://www.samair.ru/proxy/proxy-05.htm
+49.0.124.114:8000        transparent       Feb-05, 01:58       Thailand
+118.99.114.155:8080      transparent       Feb-04, 16:21       Indonesia
+180.249.119.252:8080     transparent       Feb-04, 06:22       Indonesia
+200.206.12.130:8080      transparent       Feb-05, 00:52       Brazil
+176.33.138.156:8080      transparent       Feb-04, 23:16       Turkey
+94.23.87.243:3128        transparent       Feb-05, 01:22       France
+190.221.174.130:8080     transparent       Feb-05, 01:53       Argentina
+110.136.216.31:8080      transparent       Feb-05, 01:51       Indonesia
+58.97.98.33:3128         transparent       Feb-04, 05:52       Thailand
+200.89.155.203:8080      transparent       Feb-05, 01:41       Argentina
+5.39.119.105:8080        transparent       Feb-04, 16:40       France
+27.111.38.253:8080       transparent       Feb-05, 00:57       Indonesia
+115.124.77.138:8081      transparent       Feb-05, 00:39       Indonesia
+121.100.25.37:80         transparent       Feb-05, 01:56       Indonesia
+186.221.66.158:8080      transparent       Feb-05, 00:45       Brazil
+85.217.191.109:8080      transparent       Feb-05, 01:29       Bulgaria
+118.97.22.204:8080       transparent       Feb-04, 06:05       Indonesia
+61.178.178.104:8003      transparent       Feb-04, 19:10       China
+202.43.167.211:8080      transparent       Feb-05, 00:40       Indonesia
+116.212.112.247:8888     transparent       Feb-04, 23:16       Hong Kong</pre>
+# Getting http://www.samair.ru/proxy/proxy-06.htm
+190.142.211.89:8080      transparent       Feb-04, 06:26       Venezuela
+41.215.77.250:8080       transparent       Feb-05, 00:44       Kenya
+202.143.190.74:3128      transparent       Feb-05, 01:22       Thailand
+118.97.164.92:8080       transparent       Feb-04, 22:54       Indonesia
+218.22.71.125:8080       transparent       Feb-04, 18:45       China
+201.219.3.119:3129       transparent       Feb-04, 06:33       Ecuador
+58.97.98.42:3128         transparent       Feb-04, 05:57       Thailand
+216.25.32.242:3128       transparent       Feb-04, 22:10       United States
+61.50.138.124:3128       transparent       Feb-04, 06:26       China
+222.169.193.34:3129      transparent       Feb-04, 06:46       China
+184.13.240.155:8080      transparent       Feb-05, 00:02       United States
+219.76.104.1:80          transparent       Feb-04, 19:44       Hong Kong
+201.240.82.113:8080      transparent       Feb-04, 06:38       Peru
+200.208.251.214:8080     transparent       Feb-05, 01:48       Brazil
+116.231.163.187:8080     transparent       Feb-04, 19:53       China
+150.165.86.22:8081       transparent       Feb-05, 00:43       Brazil
+121.22.34.166:3128       transparent       Feb-04, 06:24       China
+219.231.164.40:45238     transparent       Feb-04, 20:07       China
+187.62.94.214:3128       transparent       Feb-04, 15:04       Brazil
+202.85.218.108:40000     transparent       Feb-05, 01:45       China</pre>
+# Getting http://www.samair.ru/proxy/proxy-07.htm
+190.7.212.30:3128        transparent       Feb-04, 06:22       Costa Rica
+58.26.157.102:8080       transparent       Feb-05, 00:43       Malaysia
+190.5.199.10:3128        transparent       Feb-05, 01:22       Colombia
+41.93.45.5:3128          transparent       Feb-05, 00:08       Tanzania, United Republic of
+198.23.128.136:3128      transparent       Feb-04, 22:04       United States
+122.129.120.8:3128       transparent       Feb-05, 01:22       Malaysia
+36.32.50.208:8080        transparent       Feb-04, 05:53       China
+123.49.32.133:8080       transparent       Feb-05, 00:41       Bangladesh
+87.248.226.210:3128      transparent       Feb-05, 01:50       Russian Federation
+195.69.191.202:3128      transparent       Feb-04, 18:52       Uzbekistan
+78.188.47.21:8080        transparent       Feb-05, 01:58       Turkey
+188.120.11.44:8080       transparent       Feb-05, 00:40       Slovakia
+177.12.103.122:8080      transparent       Feb-04, 06:11       Brazil
+190.203.11.41:8080       transparent       Feb-05, 00:54       Venezuela
+180.252.250.93:3128      transparent       Feb-04, 06:22       Indonesia
+101.255.72.166:8080      transparent       Feb-05, 01:03       Indonesia
+110.139.116.63:8080      transparent       Feb-05, 00:47       Indonesia
+101.255.36.30:808        transparent       Feb-05, 00:26       Indonesia
+186.47.84.139:8080       transparent       Feb-04, 22:23       Ecuador
+200.54.92.187:80         transparent       Feb-05, 00:34       Chile</pre>
+# Getting http://www.samair.ru/proxy/proxy-08.htm
+5.10.225.230:8080        transparent       Feb-04, 05:49       Iraq
+197.253.7.13:80          transparent       Feb-05, 00:28       Nigeria
+189.91.223.42:8080       transparent       Feb-05, 01:44       Brazil
+219.239.227.81:8121      transparent       Feb-05, 01:08       China
+176.10.65.154:8080       transparent       Feb-04, 19:12       Spain
+95.128.187.242:8080      transparent       Feb-04, 23:13       Macedonia
+74.221.211.117:8080      transparent       Feb-04, 20:41       United States
+81.82.240.204:3128       transparent       Feb-05, 01:23       Belgium
+202.102.58.209:80        transparent       Feb-04, 08:20       China
+185.2.12.59:8080         transparent       Feb-04, 06:15       Iran, Islamic Republic of
+62.109.19.169:3128       transparent       Feb-04, 05:55       Russian Federation
+190.207.212.95:3128      transparent       Feb-05, 01:30       Venezuela
+60.216.108.11:8081       transparent       Feb-04, 22:23       China
+202.51.118.14:8080       transparent       Feb-04, 23:41       Indonesia
+183.12.88.157:8888       transparent       Feb-04, 23:51       China
+137.84.8.150:8080        transparent       Feb-04, 16:35       United States
+199.101.98.165:3128      transparent       Feb-04, 06:31       Indonesia
+82.79.92.226:8080        transparent       Feb-04, 22:35       Romania
+177.21.227.33:8080       transparent       Feb-05, 00:40       Brazil
+180.242.77.91:80         transparent       Feb-04, 06:12       Indonesia</pre>
+# Getting http://www.samair.ru/proxy/proxy-09.htm
+195.46.121.234:8080      transparent       Feb-04, 12:27       Russian Federation
+113.160.50.51:80         transparent       Feb-05, 00:10       Vietnam
+109.224.63.84:8080       transparent       Feb-05, 01:03       Iraq
+62.201.207.14:8080       transparent       Feb-05, 00:11       Iraq
+200.195.135.195:3128     transparent       Feb-04, 22:21       Brazil
+222.195.73.119:1170      transparent       Feb-04, 21:13       China
+58.20.61.88:9090         transparent       Feb-04, 22:40       China
+177.67.241.132:3128      transparent       Feb-05, 00:45       Brazil
+193.93.229.157:8080      transparent       Feb-05, 00:29       Ukraine
+189.70.141.232:3128      transparent       Feb-04, 10:00       Brazil
+84.42.3.3:3128           transparent       Feb-04, 05:59       Russian Federation
+200.110.35.150:8080      transparent       Feb-04, 23:56       Peru
+146.82.91.21:8080        transparent       Feb-04, 06:16       United States
+176.34.218.96:3128       transparent       Feb-05, 01:57       Ireland
+217.218.43.130:3128      transparent       Feb-04, 22:00       Iran, Islamic Republic of
+187.0.185.1:3128         transparent       Feb-04, 17:41       Brazil
+146.82.91.23:8080        transparent       Feb-04, 06:16       United States
+46.137.138.182:3128      transparent       Feb-05, 01:36       Ireland
+190.145.26.3:3128        transparent       Feb-04, 06:26       Colombia
+49.212.129.130:3128      transparent       Feb-05, 02:01       Japan</pre>
+# Getting http://www.samair.ru/proxy/proxy-10.htm
+110.77.249.35:3128       transparent       Feb-04, 22:39       Thailand
+197.157.218.122:8080     transparent       Feb-05, 00:45       Nigeria
+218.26.11.194:9527       transparent       Feb-04, 21:35       China
+89.109.40.22:3128        transparent       Feb-04, 16:26       Russian Federation
+111.94.147.87:3128       transparent       Feb-04, 08:36       Indonesia
+59.120.178.28:3128       transparent       Feb-04, 05:53       Taiwan
+200.54.78.66:8080        transparent       Feb-04, 09:59       Chile
+123.54.30.44:8080        transparent       Feb-04, 06:09       China
+119.110.70.73:8080       transparent       Feb-04, 22:11       Indonesia
+178.18.17.211:3128       transparent       Feb-04, 19:13       Anonymous Proxy
+103.28.122.66:8080       transparent       Feb-05, 00:41       Bangladesh
+177.87.242.194:8080      transparent       Feb-04, 23:17       Brazil
+150.165.75.129:8080      transparent       Feb-05, 00:31       Brazil
+201.89.227.50:3128       transparent       Feb-05, 01:57       Brazil
+195.69.191.201:80        transparent       Feb-05, 01:14       Uzbekistan
+200.87.124.198:3128      transparent       Feb-05, 01:03       Bolivia
+189.15.67.18:3128        transparent       Feb-04, 06:21       Brazil
+187.53.246.178:3128      transparent       Feb-05, 00:47       Brazil
+41.78.77.122:3128        transparent       Feb-04, 22:21       Zimbabwe
+89.237.134.10:8080       transparent       Feb-04, 19:23       Saudi Arabia</pre>
+# Getting http://www.samair.ru/proxy/proxy-11.htm
+110.138.249.109:8080     transparent       Feb-05, 00:40       Indonesia
+123.125.74.212:80        transparent       Feb-05, 00:52       China
+198.154.114.118:3128     transparent       Feb-05, 01:11       United States
+101.255.63.14:8080       transparent       Feb-05, 01:43       Indonesia
+27.50.19.101:3128        transparent       Feb-05, 01:17       Indonesia
+190.163.194.132:8080     transparent       Feb-04, 10:09       Chile
+190.85.37.90:8080        transparent       Feb-05, 01:23       Colombia
+187.75.203.104:8080      transparent       Feb-04, 18:08       Brazil
+211.144.76.58:9000       transparent       Feb-04, 11:09       China
+194.164.246.108:3128     transparent       Feb-05, 01:05       United Kingdom
+109.236.220.98:8080      transparent       Feb-05, 01:44       Russian Federation
+202.43.188.12:8080       transparent       Feb-04, 23:40       Indonesia
+186.215.207.141:3128     transparent       Feb-04, 06:18       Brazil
+110.136.114.14:8080      transparent       Feb-05, 01:32       Indonesia
+200.202.240.174:80       transparent       Feb-05, 01:47       Brazil
+206.130.99.82:3128       transparent       Feb-04, 09:47       United States
+78.38.80.142:8080        transparent       Feb-04, 06:05       Iran, Islamic Republic of
+60.164.159.33:8003       transparent       Feb-04, 23:13       China
+112.5.254.19:80          transparent       Feb-04, 22:24       China
+123.54.9.52:8080         transparent       Feb-05, 00:46       China</pre>
+# Getting http://www.samair.ru/proxy/proxy-12.htm
+61.147.79.56:3128        transparent       Feb-04, 20:39       China
+46.252.244.178:3128      transparent       Feb-04, 10:34       Russian Federation
+178.169.139.83:8081      transparent       Feb-05, 01:31       Bulgaria
+119.235.54.23:3128       transparent       Feb-04, 23:48       India
+37.77.50.133:80          transparent       Feb-05, 01:05       Iraq
+63.141.249.37:3128       transparent       Feb-05, 01:20       United States
+199.233.234.60:8080      transparent       Feb-04, 17:12       United States
+46.137.17.166:3128       transparent       Feb-05, 01:44       Ireland
+202.106.16.116:3128      transparent       Feb-04, 06:53       China
+220.246.4.74:8080        transparent       Feb-04, 23:07       Hong Kong
+119.252.160.34:8080      transparent       Feb-05, 00:39       Indonesia
+180.241.238.147:8080     transparent       Feb-04, 22:26       Indonesia
+101.78.195.61:3128       transparent       Feb-04, 19:25       Hong Kong
+195.69.191.204:80        transparent       Feb-04, 06:29       Uzbekistan
+119.145.254.73:3128      transparent       Feb-04, 06:21       China
+174.142.10.231:8080      transparent       Feb-04, 06:14       Canada
+78.134.253.167:8080      transparent       Feb-05, 01:15       Croatia
+212.9.246.122:8088       transparent       Feb-04, 21:06       Ukraine
+41.78.26.161:8080        transparent       Feb-05, 00:45       Kenya
+186.3.78.219:8080        transparent       Feb-04, 21:13       Ecuador</pre>
+# Getting http://www.samair.ru/proxy/proxy-13.htm
+110.138.163.58:8080      transparent       Feb-05, 01:28       Indonesia
+200.217.164.50:3128      transparent       Feb-04, 06:30       Brazil
+79.175.187.2:8080        transparent       Feb-04, 23:05       Iran, Islamic Republic of
+200.97.143.128:8080      transparent       Feb-05, 01:51       Brazil
+177.87.193.134:3128      transparent       Feb-05, 02:04       Brazil
+200.182.190.153:8080     transparent       Feb-05, 01:53       Brazil
+177.21.233.254:3128      transparent       Feb-04, 09:54       Brazil
+62.173.37.202:80         transparent       Feb-04, 23:32       Nigeria
+218.5.74.174:80          transparent       Feb-05, 02:01       China
+184.95.43.12:3128        transparent       Feb-05, 01:03       United States
+195.69.191.203:80        transparent       Feb-05, 01:43       Uzbekistan
+118.99.77.194:8080       transparent       Feb-04, 06:05       Indonesia
+77.38.171.87:8080        transparent       Feb-05, 00:56       Latvia
+190.68.102.154:8080      transparent       Feb-04, 23:50       Colombia
+201.56.208.233:80        transparent       Feb-04, 22:31       Brazil
+82.200.236.50:9090       transparent       Feb-05, 00:01       Kazakstan
+216.244.71.143:3128      transparent       Feb-04, 18:25       United States
+187.103.248.100:8080     transparent       Feb-04, 23:56       Brazil
+196.28.228.253:8080      transparent       Feb-04, 06:52       Mozambique
+204.11.158.172:8080      transparent       Feb-05, 01:52       Virgin Islands, U.S.</pre>
+# Getting http://www.samair.ru/proxy/proxy-14.htm
+110.138.237.102:8080     transparent       Feb-04, 06:04       Indonesia
+49.0.124.222:8000        transparent       Feb-05, 01:24       Thailand
+190.40.141.142:8080      transparent       Feb-05, 00:45       Peru
+219.157.200.18:3128      transparent       Feb-04, 23:10       China
+189.81.214.86:8080       transparent       Feb-04, 06:22       Brazil
+201.48.146.182:8080      transparent       Feb-04, 23:21       Brazil
+80.249.166.68:3128       transparent       Feb-04, 22:47       Hungary
+62.201.211.68:8080       transparent       Feb-04, 05:55       Iraq
+190.96.220.70:80         transparent       Feb-05, 01:06       Colombia
+203.201.163.169:3128     transparent       Feb-04, 06:36       Indonesia
+219.92.31.157:8080       transparent       Feb-05, 01:05       Malaysia
+222.124.178.98:3128      transparent       Feb-04, 09:49       Indonesia
+122.72.11.132:80         transparent       Feb-04, 18:11       China
+187.87.234.40:8080       transparent       Feb-05, 00:45       Brazil
+80.191.78.252:8080       transparent       Feb-05, 00:10       Iran, Islamic Republic of
+61.178.148.8:8003        transparent       Feb-04, 20:17       China
+119.252.172.131:80       transparent       Feb-05, 00:42       Indonesia
+190.223.53.70:8080       transparent       Feb-05, 00:46       Peru
+177.69.227.87:3128       transparent       Feb-05, 01:44       Brazil
+116.93.12.100:8080       transparent       Feb-04, 23:28       Philippines</pre>
+# Getting http://www.samair.ru/proxy/proxy-15.htm
+200.8.218.239:8080       transparent       Feb-05, 00:41       Venezuela
+180.153.142.107:8000     transparent       Feb-04, 09:56       China
+118.99.65.141:8080       transparent       Feb-04, 06:06       Indonesia
+186.113.28.114:3128      transparent       Feb-04, 22:52       Colombia
+118.99.76.95:8080        transparent       Feb-04, 06:05       Indonesia
+118.96.153.181:8080      transparent       Feb-04, 20:39       Indonesia
+42.121.54.17:8080        transparent       Feb-04, 19:34       China
+64.37.51.112:3128        transparent       Feb-05, 01:41       United States
+189.59.64.26:80          transparent       Feb-04, 06:28       Brazil
+187.15.222.166:8080      transparent       Feb-04, 06:18       Brazil
+198.154.114.118:8080     transparent       Feb-05, 01:11       United States
+183.60.137.121:3128      transparent       Feb-05, 00:39       China
+176.115.250.25:8080      transparent       Feb-04, 06:16       Poland
+200.206.34.130:3128      transparent       Feb-04, 06:31       Brazil
+92.96.172.175:8118       transparent       Feb-04, 04:17       United Arab Emirates
+222.240.224.131:80       transparent       Feb-05, 00:40       China
+202.43.188.6:8080        transparent       Feb-05, 00:38       Indonesia
+123.54.59.106:8080       transparent       Feb-05, 00:01       China
+187.237.80.242:8080      transparent       Feb-04, 06:28       Mexico
+113.193.187.226:3128     transparent       Feb-04, 06:18       India</pre>
