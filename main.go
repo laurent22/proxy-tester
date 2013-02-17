@@ -27,7 +27,7 @@ func (s ByAddress) Less(i, j int) bool { return s.ProxyStatuses[i].proxy < s.Pro
 
 var proxyCheckWaitGroup sync.WaitGroup
 var proxyStatuses ProxyStatuses
-var getsInProgress = make(chan int, 2) // Max. number of simultaneous requests
+var getsInProgress = make(chan int, 15) // Max. number of simultaneous requests
 
 func (status ProxyStatus) String() string {
 	var output string
@@ -41,7 +41,7 @@ func (status ProxyStatus) String() string {
 func checkProxy(proxy string, downloadedUrl string) (success bool, errorMessage string) {	
 	getsInProgress <- 1
 	defer func() { <- getsInProgress }()
-	fmt.Println("Checking:", proxy, downloadedUrl)
+	//fmt.Println("Checking:", proxy, downloadedUrl)
 	proxyUrl, err := url.Parse("http://" + proxy)
 	httpClient := &http.Client { Transport: &http.Transport { Proxy: http.ProxyURL(proxyUrl) } }
 	response, err := httpClient.Get(downloadedUrl)
@@ -50,10 +50,14 @@ func checkProxy(proxy string, downloadedUrl string) (success bool, errorMessage 
 	body, err := ioutil.ReadAll(response.Body)
 	if err != nil { return false, err.Error() }
 
-	bodyString := string(body)
+	bodyString := strings.ToLower(strings.Trim(string(body), " \n\t\r"))
 
 	if strings.Index(bodyString, "<body") < 0 && strings.Index(bodyString, "<head") < 0 {
-		return false, "Reveived page is not HTML"
+		if strings.Index(bodyString, "<title>invalid request</title>") >= 0 {
+			return false, "Tracker responsed 'Invalid request' - might be dead"
+		} else {
+			return false, "Reveived page is not HTML: " + bodyString
+		}
 	}
 
 	return true, ""
@@ -75,7 +79,7 @@ func checkResults(proxyInfoChan chan ProxyStatus) {
 	for {
 		status := <- proxyInfoChan
 		proxyStatuses = append(proxyStatuses, &status)
-		fmt.Println(status)
+		if status.ok { fmt.Println(status) }
 		proxyCheckWaitGroup.Done()
 	}
 }
