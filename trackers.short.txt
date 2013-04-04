@@ -1,3 +1,0 @@
-http://tracker.torrentbay.to:6969/announce
-
-http://exodus.desync.com:6969/announce

@@ -41,8 +41,8 @@ func (status ProxyStatus) String() string {
 func checkProxy(proxy string, downloadedUrl string) (success bool, errorMessage string) {	
 	getsInProgress <- 1
 	defer func() { <- getsInProgress }()
-	//fmt.Println("Checking:", proxy, downloadedUrl)
-	proxyUrl, err := url.Parse("http://" + proxy)
+	if !strings.HasPrefix(proxy, "http") { proxy += "http://" + proxy }
+	proxyUrl, err := url.Parse(proxy)
 	httpClient := &http.Client { Transport: &http.Transport { Proxy: http.ProxyURL(proxyUrl) } }
 	response, err := httpClient.Get(downloadedUrl)
 	if err != nil { return false, err.Error() }
@@ -84,9 +84,7 @@ func checkResults(proxyInfoChan chan ProxyStatus) {
 	}
 }
 
-func main() {
-	runtime.GOMAXPROCS(runtime.NumCPU())
-
+func parseSamairProxies() []string {
 	content, err := ioutil.ReadFile("proxy.txt")
 	if err != nil {
 		panic(err.Error())
@@ -107,11 +105,55 @@ func main() {
 		proxies = append(proxies, proxy)
 	}
 	
-	content, err = ioutil.ReadFile("trackers.all.txt")
+	return proxies	
+}
+
+func parseHmaProxies() []string {
+	content, err := ioutil.ReadFile("hma_proxies.txt")
 	if err != nil {
 		panic(err.Error())
 	}
-	lines = strings.Split(string(content), "\n")
+	lines := strings.Split(string(content), "\n")
+
+	var proxies[] string
+	proxy := ""
+
+	for i := 0; i < len(lines); i++ {
+		var line = strings.Trim(lines[i], " \t\n\r")
+		if i % 2 == 1 {
+			var tokens = strings.Split(line, "\t")
+			var protocol string
+			if  len(tokens) >= 1 {
+				protocol = strings.ToLower(tokens[0])
+			} else {
+				protocol = "http"
+			}
+			if protocol != "http" && protocol != "https" { continue }
+			proxy = protocol + "://" + proxy
+			proxies = append(proxies, proxy)
+			continue
+		}
+		if len(line) == 0 { continue }
+		var tokens = strings.Split(line, "\t")
+		if  len(tokens) < 3 { continue }
+		proxy = strings.Trim(tokens[1], " \t\n\r")
+		proxy += ":" + strings.Trim(tokens[2], " \t\n\r")
+		if len(proxy) < 7 { continue }
+	}
+	
+	return proxies	
+}
+
+func main() {
+	runtime.GOMAXPROCS(runtime.NumCPU())
+
+	proxies := parseHmaProxies()
+	
+	content, err := ioutil.ReadFile("trackers.all.txt")
+	if err != nil {
+		panic(err.Error())
+	}
+	lines := strings.Split(string(content), "\n")
 	
 	var trackers[] string
 
