@@ -41,7 +41,7 @@ func (status ProxyStatus) String() string {
 func checkProxy(proxy string, downloadedUrl string) (success bool, errorMessage string) {	
 	getsInProgress <- 1
 	defer func() { <- getsInProgress }()
-	if !strings.HasPrefix(proxy, "http") { proxy += "http://" + proxy }
+	if !strings.HasPrefix(proxy, "http") { proxy = "http://" + proxy }
 	proxyUrl, err := url.Parse(proxy)
 	httpClient := &http.Client { Transport: &http.Transport { Proxy: http.ProxyURL(proxyUrl) } }
 	response, err := httpClient.Get(downloadedUrl)
@@ -147,7 +147,9 @@ func parseHmaProxies() []string {
 func main() {
 	runtime.GOMAXPROCS(runtime.NumCPU())
 
-	proxies := parseHmaProxies()
+	proxies := parseSamairProxies()
+	
+	fmt.Println("# Checking", len(proxies), "proxies")
 	
 	content, err := ioutil.ReadFile("trackers.all.txt")
 	if err != nil {
